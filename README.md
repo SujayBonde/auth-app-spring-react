@@ -21,28 +21,8 @@ Implements **JWT authentication**, **role‑based access control**, and a clean 
 ## 📁 Project Structure
 
 ```
-jwt-auth-app/
-│
-├── backend/                          ← Spring Boot Maven Project
-│   ├── pom.xml                       ← backend-pom.xml
-│   └── src/main/java/com/sujay/jwtauthapp/
-│       ├── JwtAuthAppApplication.java
-│       ├── model/ (User, Role, ERole)
-│       ├── repository/ (UserRepository, RoleRepository)
-│       ├── security/ (WebSecurityConfig, JWT utils, filters, services)
-│       ├── controller/ (AuthController, TestController)
-│       └── payload/ (LoginRequest, SignupRequest, JwtResponse, etc.)
-│   └── src/main/resources/application.properties
-│
-└── frontend/                         ← React Vite Project
-    ├── package.json
-    ├── vite.config.js
-    ├── tailwind.config.js
-    └── src/
-        ├── main.jsx
-        ├── index.css
-        ├── App.jsx
-        └── services/ (auth.service.js, user.service.js)
+<img width="537" height="882" alt="image" src="https://github.com/user-attachments/assets/eb519b1e-6c51-49f1-bdc0-d6578871e8b4" />
+
 ```
 
 ---
