@@ -1,6 +1,3 @@
-Here’s a polished **README.md** you can use for your GitHub repository. I’ve structured it to be attractive, developer‑friendly, and professional, with clear sections, badges, and visuals.
-
----
 
 ```markdown
 # 🔐 JWT Auth App — Spring Boot + React + MySQL + JWT
@@ -195,7 +192,3 @@ This project is licensed under the MIT License.
 Developed by **Sujay** ✨  
 Focused on **Java, Spring Boot, React, and full‑stack development**.
 ```
-
----
-
-This README is **GitHub‑ready**: it’s clean, structured, and visually appealing. You can add badges (e.g., build status, license, technologies) at the top if you want extra polish. Would you like me to also design a **badge section** (for Java, Spring Boot, React, MySQL, JWT) so your repo looks even more professional?
