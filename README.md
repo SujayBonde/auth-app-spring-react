@@ -1,4 +1,3 @@
-
 ```markdown
 # 🔐 JWT Auth App — Spring Boot + React + MySQL + JWT
 
@@ -9,13 +8,13 @@ Implements **JWT authentication**, **role‑based access control**, and a clean 
 
 ## ✨ Features
 
-- ✅ User Registration & Login with JWT
-- ✅ Role‑based Authorization (`USER`, `MODERATOR`, `ADMIN`)
-- ✅ Secure Password Hashing with BCrypt
-- ✅ Protected API Endpoints
-- ✅ React Frontend with Tailwind CSS
-- ✅ MySQL Database Integration
-- ✅ Spring Security + JWT Filter
+- 🔑 User Registration & Login with JWT  
+- 🛡️ Role‑based Authorization (`USER`, `MODERATOR`, `ADMIN`)  
+- 🔒 Secure Password Hashing with BCrypt  
+- 🌐 Protected API Endpoints  
+- 🎨 React Frontend with Tailwind CSS  
+- 🗄️ MySQL Database Integration  
+- ⚙️ Spring Security + JWT Filter  
 
 ---
 
@@ -53,7 +52,7 @@ jwt-auth-app/
 1. **Create Spring Boot Project**  
    Use [Spring Initializr](https://start.spring.io) with:
    - Maven, Java 17, Spring Boot 3.2.0  
-   - Dependencies: Spring Web, Spring Security, Spring Data JPA, Validation, MySQL Driver, Lombok
+   - Dependencies: Spring Web, Spring Security, Spring Data JPA, Validation, MySQL Driver, Lombok  
 
 2. **Configure `application.properties`**
    ```properties
@@ -115,14 +114,14 @@ jwt-auth-app/
 
 ## 🔌 API Endpoints
 
-| Method | URL                | Auth | Description            |
-|--------|--------------------|------|------------------------|
-| POST   | /api/auth/signup   | None | Register new user      |
-| POST   | /api/auth/signin   | None | Login, returns JWT     |
-| GET    | /api/test/public   | None | Open endpoint          |
-| GET    | /api/test/user     | JWT  | Any logged-in user     |
-| GET    | /api/test/moderator| JWT+MOD | Moderator only     |
-| GET    | /api/test/admin    | JWT+ADMIN | Admin only       |
+| Method | URL                | Auth      | Description        |
+|--------|--------------------|-----------|--------------------|
+| POST   | /api/auth/signup   | None      | Register new user  |
+| POST   | /api/auth/signin   | None      | Login, returns JWT |
+| GET    | /api/test/public   | None      | Open endpoint      |
+| GET    | /api/test/user     | JWT       | Any logged-in user |
+| GET    | /api/test/moderator| JWT + MOD | Moderator only     |
+| GET    | /api/test/admin    | JWT + ADMIN | Admin only       |
 
 ---
 
@@ -186,9 +185,7 @@ npm run dev
 This project is licensed under the MIT License.
 
 ---
-
 ## 💡 Author
 
 Developed by **Sujay** ✨  
 Focused on **Java, Spring Boot, React, and full‑stack development**.
-```
